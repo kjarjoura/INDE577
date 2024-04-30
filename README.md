@@ -69,12 +69,16 @@ Topics List:
 ## Datasets
 This project uses two primary datasets related to wine.
 
-The first dataset is related to red and white vinho verde wine samples, from the north of Portugal. The goal is to model wine quality and color based on physicochemical tests. Chemical data includes: fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free sulfur dioxide, total sulfur dioxide, density, pH, sulphates, alcohol, quality. Visualization of means of chemical components for quality and color are below:
+
+The first [dataset](https://archive.ics.uci.edu/dataset/186/wine+quality) is related to red and white vinho verde wine samples, from the north of Portugal. The goal is to model wine quality and color based on physicochemical tests. Chemical data includes: fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free sulfur dioxide, total sulfur dioxide, density, pH, sulphates, alcohol, quality. Visualization of means of chemical components for quality and color are below:
+
 ![image](quality.png)
+
 ![image](color.png)
 
-The second dataset presents results of a chemical analysis of wines grown in the same region in Italy but derived from three different cultivars. The analysis determined the quantities of 13 constituents found in each of the three types of wines including alcohol, malic acid, ash, alcalinity of ash, magnesium, total phenols, flavanoids,
+The second [dataset](https://archive.ics.uci.edu/dataset/109/wine) presents results of a chemical analysis of wines grown in the same region in Italy but derived from three different cultivars. The analysis determined the quantities of 13 constituents found in each of the three types of wines including alcohol, malic acid, ash, alcalinity of ash, magnesium, total phenols, flavanoids,
 nonflavanoid phenols, proanthocyanins, color intensity, hue, OD280/OD315 of diluted wines, and proline. The goal is to model wine class (designated by one of three cultivars) based on these quantities. A visualization of means of components for class is below:
+
 ![image](class.png)
 
 
