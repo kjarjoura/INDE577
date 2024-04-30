@@ -22,7 +22,7 @@ Logistic regression aims to find the parameters of the logistic function that be
 
 2. **Calculate Log Odds**: Compute the log odds of the positive class for each instance using the logistic function:
 
-$$\text{log\textsubscript{odds}} = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \ldots + \beta_n x_n$$
+$$\text{log\subscript{odds}} = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \ldots + \beta_n x_n$$
 
 where $\beta_0, \beta_1, \ldots, \beta_n$ are the coefficients of the logistic regression model and $x_1, x_2, \ldots, x_n$ are the input features.
 
