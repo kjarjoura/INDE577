@@ -16,24 +16,42 @@ Natural language processing: Machine learning algorithms enable computers to und
 ![image](ml_image.png)
 
 ## Course Description
-Fundamentals of data science and machine learning during the Fall 2021 semester at Rice University. Topics include: introduction to scikit-learn, Keras and tensorflow2, linear and logistic regression, clustering, support vector machines, random forest trees, neural networks, deep learning, natural language processing. Recommended Prerequisite(s): Three semesters of calculus. A background in some programming language would be extremely useful.
+Data Science & Machine Learning during the Spring 2024 semester at Rice University. Topics include the following:
 
-Files in this repository are Jupyter Notebook projects demonstrating machine learning algorithms learned in class and referenced in various textbooks. This repository primarily contains supervised learning algorithms and unsupervised learning algorithms.
+- Data Science Foundations:
+  - IDE's in Data Science
+  - Version control with Git and GitHub
+  - Data Exploration and Visualization
+  - Python package management
+  - 
+- Supervised Learning:
+  - Model Building, Validation, and Error Analysis
+  - Gradient Descent
+  - Linear and Logistic Regression
+  - Neural Networks, and Support Vector Machines
+  - k-Nearest Neighbors, Decision/Regression Trees, and Ensemble Learning
+
+- Unsupervised Learning:
+  - k-Means Clustering
+  - Hierarchical Clustering
+  - Principal Component Analysis
+  - Anomaly Detection
+
+Files in this repository are Jupyter Notebook projects demonstrating some of the machine learning algorithms covered in class and referenced in textbooks, particularly supervised learning algorithms and unsupervised learning algorithms.
 
 Data Science tools used in this course:
-- Python version 3.6 or higher
+- Python version 3.9 or higher
   - [pandas](https://pandas.pydata.org/docs/user_guide/index.html)
   - [Numpy](https://numpy.org/doc/stable/)
   - [Matplotlib](https://matplotlib.org/stable/contents.html)
   - [scikit-learn](https://scikit-learn.org/stable/user_guide.html)
   - [Tensorflow](https://www.tensorflow.org/api_docs/python/tf/all_symbols)
 
-The topics in this course primarily fall into 3 categories: 
-![image](https://user-images.githubusercontent.com/89811204/132995084-efa2c299-a6e9-4f38-ab14-26ef970736bc.png)
+A brief description of supervised and unsupervised algorithms: 
+![image](s vs u.png)
 
 Topics List:
-- [Exploratory Data Analysis](https://github.com/Madison-Bunting/INDE-577/blob/main/Exploring%20a%20New%20Dataset.ipynb) using the primary dataset used in this repository
-- [Supervised Learning](https://github.com/Madison-Bunting/INDE-577/tree/main/supervised%20learning)
+- [Supervised Learning](Supervised Learning)
   - [Linear Regression](https://github.com/Madison-Bunting/INDE-577/tree/main/supervised%20learning/0%20-%20linear%20regression)
   - [Gradient Descent](https://github.com/Madison-Bunting/INDE-577/tree/main/supervised%20learning/1%20-%20gradient%20descent)
   - [Logistic Regression](https://github.com/Madison-Bunting/INDE-577/tree/main/supervised%20learning/2%20-%20logistic%20regression)
@@ -50,8 +68,9 @@ Topics List:
 - [Reinforcement Learning](https://github.com/Madison-Bunting/INDE-577/tree/main/reinforcement%20learning)
   - [Q-Learning algorithm](https://github.com/Madison-Bunting/INDE-577/tree/main/reinforcement%20learning/1%20-%20q-learning)
   - [Graph Theory](https://github.com/Madison-Bunting/INDE-577/tree/main/reinforcement%20learning/2%20-%20graph%20theory) - this is not an explicit "algorithm" of reinforcement learning. Rather, this is an area of new development and overlap between a mathematical field and data science
+ 
+## Datasets
 
-The examples and implementations of algorithms in this repository will specifically focus on the context of Human Resources Analytics, which is a growing area in business representing the use of data science and machine learning in the context of Human Resources. More detals on HR analytics can be found [here](https://lesley.edu/article/how-hr-analytics-are-changing-business).
 
 ## Instructor
 Randy Davila, PhD
