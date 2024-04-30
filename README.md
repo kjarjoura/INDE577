@@ -23,7 +23,7 @@ Data Science & Machine Learning during the Spring 2024 semester at Rice Universi
   - Version control with Git and GitHub
   - Data Exploration and Visualization
   - Python package management
-  - 
+    
 - Supervised Learning:
   - Model Building, Validation, and Error Analysis
   - Gradient Descent
