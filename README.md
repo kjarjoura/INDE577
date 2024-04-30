@@ -47,7 +47,7 @@ Data Science tools used in this course:
   - [scikit-learn](https://scikit-learn.org/stable/user_guide.html)
   - [Tensorflow](https://www.tensorflow.org/api_docs/python/tf/all_symbols)
 
-A brief description of supervised and unsupervised algorithms: 
+A brief visualization of supervised versus unsupervised learning: 
 ![image](s_vs_u.png)
 
 Topics List:
