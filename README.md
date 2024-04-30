@@ -48,7 +48,7 @@ Data Science tools used in this course:
   - [Tensorflow](https://www.tensorflow.org/api_docs/python/tf/all_symbols)
 
 A brief description of supervised and unsupervised algorithms: 
-![image](s vs u.png)
+![image](s_vs_u.png)
 
 Topics List:
 - [Supervised Learning](Supervised Learning)
