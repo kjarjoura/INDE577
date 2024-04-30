@@ -21,7 +21,7 @@ $$H(t) = - \sum_{i=1}^{K} p(i|t) \log_2 p(i|t)$$
 
 ### Information Gain
 The goal of splitting is to maximize the information gain, which is the difference between the impurity of the parent node and the weighted sum of impurities of the child nodes. It is defined as:
-$\text{Information Gain} = I(\text{parent}) - \sum_{\text{children}} \frac{N_j}{N} I(\text{child}_j)$
+$$\text{Information Gain} = I(\text{parent}) - \sum_{\text{children}} \frac{N_j}{N} I(\text{child}_j)$$
 where $N$ is the total number of samples, $N_j$ is the number of samples in the $j^{th}$ child node, and $I$ represents the impurity measure (Gini impurity or entropy).
 
 ### Tree Pruning
