@@ -63,4 +63,4 @@ Since k-NN relies on the computation of distances between data points, it is cru
 - Not suitable for imbalanced datasets or noisy data.
 
 ## Implementation with Sci-Kit Learn
-The implementation in this repository uses the `KNeighborsClassifier` class from scikit-learn to classify data points based on their nearest neighbors. It visualizes the decision boundaries and provides insights into the performance of the classifier for different values of k.
+The implementation in this repository uses the `KNeighborsClassifier` class from scikit-learn to classify data points based on their nearest neighbors. It visualizes the decision boundaries and provides insights into the performance of the classifier for different values of $k$.
