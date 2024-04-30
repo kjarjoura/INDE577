@@ -12,12 +12,12 @@ Decision Trees make splits based on a splitting criterion, such as Gini impurity
 
 ### Gini Impurity
 The Gini impurity for a node $t$ with $K$ classes is defined as:
-$G(t) = 1 - \sum_{i=1}^{K} p(i|t)^2$
+$G(t) = 1 - \sum_limits{i=1}^{K} p(i|t)^2$
 where $p(i|t)$ is the proportion of samples of class $i$ in node $t$.
 
 ### Entropy
 The entropy for a node $t$ with $K$ classes is defined as:
-$H(t) = - \sum_{i=1}^{K} p(i|t) \log_2 p(i|t)$
+$H(t) = - \sum_limits{i=1}^{K} p(i|t) \log_2 p(i|t)$
 
 ### Information Gain
 The goal of splitting is to maximize the information gain, which is the difference between the impurity of the parent node and the weighted sum of impurities of the child nodes. It is defined as:
