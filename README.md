@@ -69,6 +69,7 @@ Topics List:
 ## Datasets
 This project uses two primary datasets related to wine.
 
+![image](wine.jpeg)
 
 The first [dataset](https://archive.ics.uci.edu/dataset/186/wine+quality) is related to red and white vinho verde wine samples, from the north of Portugal. The goal is to model wine quality and color based on physicochemical tests. Chemical data includes: fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free sulfur dioxide, total sulfur dioxide, density, pH, sulphates, alcohol, quality. Visualization of means of chemical components for quality and color are below:
 
