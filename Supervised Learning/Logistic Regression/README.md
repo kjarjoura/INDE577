@@ -22,13 +22,13 @@ Logistic regression aims to find the parameters of the logistic function that be
 
 2. **Calculate Log Odds**: Compute the log odds of the positive class for each instance using the logistic function:
 
-$$\text{log\_odds} = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \ldots + \beta_n x_n$$
+$$\text{log\textsubscript{odds}} = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \ldots + \beta_n x_n$$
 
 where $\beta_0, \beta_1, \ldots, \beta_n$ are the coefficients of the logistic regression model and $x_1, x_2, \ldots, x_n$ are the input features.
 
 3. **Apply Logistic Function**: Apply the logistic function to the log odds to obtain the predicted probabilities:
 
-$$P(y = 1 | \mathbf{x}) = \frac{1}{1 + e^{-\text{log\_odds}}}$$
+$$P(y = 1 | \mathbf{x}) = \frac{1}{1 + e^{-\text{log\textsubscript{odds}}}}$$
 
 4. **Thresholding**: Convert the predicted probabilities into binary class labels using a threshold (e.g., 0.5).
 
