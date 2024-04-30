@@ -31,9 +31,9 @@ Decision Trees are prone to overfitting, especially when the tree grows deep. Pr
 
 1. Initialize the tree by selecting the attribute that maximizes the information gain or minimizes impurity as the root node.
 2. For each internal node in the tree:
-   a. Evaluate the splitting criteria to determine the optimal attribute for further partitioning.
-   b. Partition the data into subsets based on the selected attribute's values.
-   c. Recursively apply steps 2a and 2b to each subset until a stopping criterion is met, such as reaching a maximum depth or minimum number of samples.
+   - a. Evaluate the splitting criteria to determine the optimal attribute for further partitioning.
+   - b. Partition the data into subsets based on the selected attribute's values.
+   - c. Recursively apply steps 2a and 2b to each subset until a stopping criterion is met, such as reaching a maximum depth or minimum number of samples.
 3. Assign class labels or regression values to the leaf nodes based on the majority class or average target value within each partition.
 4. For a new instance, traverse the tree from the root node to a leaf node by following the decision paths based on the attribute values.
 5. Predict the class label or regression value associated with the leaf node reached during traversal.
