@@ -26,9 +26,9 @@ During inference, predictions from all individual trees are aggregated to produc
 
 #### Mathematical Formulation
 
-Let $ X = {x_1, x_2, ..., x_n} $ denote the training dataset, and $ Y = {y_1, y_2, ..., y_n} $ denote the corresponding labels. A Random Forest consists of $ T $ decision trees, denoted as $ {T_1, T_2, ..., T_T} $. Each decision tree $ T_i $ is trained on a bootstrap sample $ X_i $ of size $ n' $, where $ n' $ is typically equal to $ n $, and a random subset of features is considered at each node.
+Let $X = {x_1, x_2, ..., x_n}$ denote the training dataset, and $Y = {y_1, y_2, ..., y_n}$ denote the corresponding labels. A Random Forest consists of $T$ decision trees, denoted as ${T_1, T_2, ..., T_T}$. Each decision tree $T_i$ is trained on a bootstrap sample $X_i$ of size $n'$, where $n'$ is typically equal to $n$, and a random subset of features is considered at each node.
 
-The prediction of the Random Forest $ \hat{Y} $ for a new instance $ x' $ is obtained by aggregating the predictions of all individual trees:
+The prediction of the Random Forest $\hat{Y}$ for a new instance $ x' $ is obtained by aggregating the predictions of all individual trees:
 $$hat{Y}(x') = \text{mode}(\{T_1(x'), T_2(x'), ..., T_T(x')\})$$
 
 ### Bagging
