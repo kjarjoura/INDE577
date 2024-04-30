@@ -51,37 +51,27 @@ A brief visualization of supervised versus unsupervised learning:
 ![image](s_vs_u.png)
 
 Topics List:
-- [Supervised Learning](Supervised Learning)
-  - [Linear Regression](https://github.com/Madison-Bunting/INDE-577/tree/main/supervised%20learning/0%20-%20linear%20regression)
-  - [Gradient Descent](https://github.com/Madison-Bunting/INDE-577/tree/main/supervised%20learning/1%20-%20gradient%20descent)
-  - [Logistic Regression](https://github.com/Madison-Bunting/INDE-577/tree/main/supervised%20learning/2%20-%20logistic%20regression)
-  - [Perceptron](https://github.com/Madison-Bunting/INDE-577/tree/main/supervised%20learning/3%20-%20perceptron)
-  - [Neural Networks](https://github.com/Madison-Bunting/INDE-577/tree/main/supervised%20learning/4%20-%20neural%20networks)
-  - [K Nearest Neighbors](https://github.com/Madison-Bunting/INDE-577/tree/main/supervised%20learning/5%20-%20K%20nearest%20neighbors)
-  - [Naive Bayes Classifier](https://github.com/Madison-Bunting/INDE-577/blob/main/supervised%20learning/6%20-%20naive%20bayes%20classifier/README.md)
-  - [Support Vector Machines](https://github.com/Madison-Bunting/INDE-577/tree/main/supervised%20learning/7%20-%20support%20vector%20machines)
-  - [Decision/Regression Trees](https://github.com/Madison-Bunting/INDE-577/tree/main/supervised%20learning/8%20-%20decision-regression%20trees)
-  - [Ensemble Learning](https://github.com/Madison-Bunting/INDE-577/tree/main/supervised%20learning/9%20-%20ensemble%20learning)
-- [Unsupervised Learning](https://github.com/Madison-Bunting/INDE-577/tree/main/unsupervised%20learning)
-  - [K-Means Clustering](https://github.com/Madison-Bunting/INDE-577/tree/main/unsupervised%20learning/1%20-%20means%20clustering)
-  - [Principle Component Analysis](https://github.com/Madison-Bunting/INDE-577/tree/main/unsupervised%20learning/2%20-%20principle%20component%20analysis)
-- [Reinforcement Learning](https://github.com/Madison-Bunting/INDE-577/tree/main/reinforcement%20learning)
-  - [Q-Learning algorithm](https://github.com/Madison-Bunting/INDE-577/tree/main/reinforcement%20learning/1%20-%20q-learning)
-  - [Graph Theory](https://github.com/Madison-Bunting/INDE-577/tree/main/reinforcement%20learning/2%20-%20graph%20theory) - this is not an explicit "algorithm" of reinforcement learning. Rather, this is an area of new development and overlap between a mathematical field and data science
+- [Supervised Learning](https://github.com/kjarjoura/INDE577demo/tree/main/Supervised%20Learning)
+  - [Decision Trees](https://github.com/kjarjoura/INDE577demo/tree/main/Supervised%20Learning/Decision%20Trees)
+  - [Ensemble Methods](https://github.com/kjarjoura/INDE577demo/tree/main/Supervised%20Learning/Ensemble%20Methods)
+  - [Gradient Descent](https://github.com/kjarjoura/INDE577demo/tree/main/Supervised%20Learning/Gradient%20Descent)
+  - [K Nearest Neighbors](https://github.com/kjarjoura/INDE577demo/tree/main/Supervised%20Learning/K%20Nearest%20Neighbors)
+  - [Linear Regresssion](https://github.com/kjarjoura/INDE577demo/tree/main/Supervised%20Learning/Linear%20Regression)
+  - [Logistic Regression](https://github.com/kjarjoura/INDE577demo/tree/main/Supervised%20Learning/Logistic%20Regression)
+  - [Neural Networks](https://github.com/kjarjoura/INDE577demo/tree/main/Supervised%20Learning/Neural%20Networks)
+  - [The Perceptron](https://github.com/kjarjoura/INDE577demo/tree/main/Supervised%20Learning/The%20Perceptron)
+- [Unsupervised Learning](https://github.com/kjarjoura/INDE577demo/tree/main/Unsupervised%20Learning)
+  - [DBSCAN](https://github.com/kjarjoura/INDE577demo/tree/main/Unsupervised%20Learning/Density-Based%20Clustering%20Non-Parametric%20Algorithm)
+  - [K Means Clustering](https://github.com/kjarjoura/INDE577demo/tree/main/Unsupervised%20Learning/K%20Means%20Clustering)
+  - [Principle Component Analysis](https://github.com/kjarjoura/INDE577demo/tree/main/Unsupervised%20Learning/Principle%20Component%20Analysis)
+
  
 ## Datasets
 
 
+
 ## Instructor
-Randy Davila, PhD
+Randy R. Davila, PhD
 - Adjunct Faculty
 - Department of Computational and Applied Mathematics
-- 6100 Main St. Houston, TX 77005
 - Email: rrd6@rice.edu
-
-## Further Reading
-- [Hands-On Machine Learning with Scikit-learn, Keras, and Tensorflow](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646)
-- [An Introduction to Statistical Learning: with Applications in R](https://www.amazon.com/Introduction-Statistical-Learning-Applications-Statistics/dp/1461471370)
-- [Deep Learning Illustrated: A Visual, Interactive Guide to Artificial Intelligence](https://www.amazon.com/Deep-Learning-Illustrated-Intelligence-Addison-Wesley/dp/0135116694)
-- [Python Basics: A Practical Introduction to Python3](https://www.amazon.com/Python-Basics-Practical-Introduction/dp/1775093328)
-- [Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-scikit-learn-TensorFlow/dp/1787125939)
