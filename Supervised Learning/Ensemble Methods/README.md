@@ -56,5 +56,5 @@ $$\hat{Y}(x') = \frac{1}{B} \sum_{i=1}^{B} E_i(x')$$
 
 ## Implementation in scikit-learn
 
-In this repository, we utilize the `RandomForestClassifier` and `BaggingClassifier` classes from the scikit-learn library to implement Random Forests and Bagging, respectively. These classes provide efficient implementations of ensemble methods for classification tasks. By leveraging scikit-learn's functionalities, we can easily construct, train, and evaluate ensemble models using various hyperparameters and splitting criteria, such as Gini impurity or entropy. Additionally, scikit-learn offers tools for fine-tuning hyperparameters and optimizing model performance, making it a valuable resource for ensemble learning tasks.
+In this repository, we utilize the `RandomForestClassifier` and `BaggingClassifier` classes from the scikit-learn library to implement Random Forests and Bagging, respectively. These classes provide efficient implementations of ensemble methods for classification tasks. By leveraging scikit-learn's functionalities, we can easily construct, train, and evaluate ensemble models using various hyperparameters and splitting criteria. Additionally, scikit-learn offers tools for fine-tuning hyperparameters and optimizing model performance, making it a valuable resource for ensemble learning tasks.
 
