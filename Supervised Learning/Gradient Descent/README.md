@@ -15,6 +15,7 @@ where $\alpha$ is the learning rate and $\nabla J(\theta)$ is the gradient of th
 In basic Gradient Descent, the gradient is computed using the entire training dataset. The algorithm updates the parameters by taking steps proportional to the negative of the gradient of the loss function with respect to the parameters.
 
 **Pseudocode for Gradient Descent:**
+
 Initialize $\theta$ randomly or to zeros
   - while not converged:
     - Compute the gradient $\nabla J(\theta)$
@@ -25,6 +26,7 @@ Initialize $\theta$ randomly or to zeros
 Stochastic Gradient Descent is a variant of Gradient Descent that updates the parameters using the gradient of the loss function computed on small random subsets of the training data, known as mini-batches. This approach is computationally efficient and often converges faster than standard Gradient Descent.
 
 **Pseudocode for Stochastic Gradient Descent (SGD):**
+
 Initialize $\theta$ randomly or to zeros
   - while not converged:
       - Shuffle training data
