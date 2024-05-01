@@ -57,6 +57,7 @@ Parameter tuning involves selecting the optimal values for these parameters to i
   - Capable of learning complex patterns and relationships in data.
   - Versatile and applicable to various types of tasks.
   - Can handle large datasets and high-dimensional input features.
+  - 
 **Limitations**:
   - Require large amounts of data for training.
   - Prone to overfitting, especially with deep architectures.
