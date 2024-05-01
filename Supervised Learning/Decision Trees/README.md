@@ -1,4 +1,4 @@
-# Decision Tree Algorithm
+# Decision Trees
 
 Decision Trees are a popular class of supervised learning algorithms used for both classification and regression tasks. They are particularly attractive due to their simplicity, interpretability, and ability to handle both numerical and categorical data.
 
@@ -38,7 +38,7 @@ Decision Trees are prone to overfitting, especially when the tree grows deep. Pr
 4. For a new instance, traverse the tree from the root node to a leaf node by following the decision paths based on the attribute values.
 5. Predict the class label or regression value associated with the leaf node reached during traversal.
 
-Attribute Selection Measures:
+#### Attribute Selection Measures:
 - Entropy (Information Gain):
   - Evaluate the entropy of the dataset and each attribute to quantify the uncertainty or randomness in the data.
   - Select the attribute with the highest information gain, calculated as the difference between the entropy of the parent node and the weighted average entropy of the child nodes.
