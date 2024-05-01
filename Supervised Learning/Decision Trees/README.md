@@ -7,6 +7,8 @@ Decision Trees are a popular class of supervised learning algorithms used for bo
 ### Decision Tree Structure
 A Decision Tree consists of nodes and directed edges. Each internal node represents a decision based on a feature, and each leaf node represents a class label or regression value. The tree is constructed recursively by partitioning the feature space into smaller regions until certain stopping criteria are met, such as maximum depth or minimum samples per leaf.
 
+![image](https://github.com/kjarjoura/INDE577/blob/main/Images/dt.png)
+
 ### Splitting Criteria
 Decision Trees make splits based on a splitting criterion, such as Gini impurity or entropy. These criteria measure the homogeneity of a set of samples. Gini impurity measures the probability of misclassifying a randomly chosen sample if it were labeled according to the distribution of classes in the node. Entropy, on the other hand, measures the average information content of a set of samples.
 
