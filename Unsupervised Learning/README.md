@@ -32,7 +32,7 @@ Despite these challenges, unsupervised learning techniques play a crucial role i
 
 ## Topics Include:
 
-- [DBSCAN](https://github.com/kjarjoura/INDE577demo/tree/main/Unsupervised%20Learning/Density-Based%20Clustering%20Non-Parametric%20Algorithm): A density-based clustering algorithm used to identify clusters of arbitrary shapes in spatial data.
+- [DBSCAN](https://github.com/kjarjoura/INDE577/tree/main/Unsupervised%20Learning/DBSCAN): A density-based clustering algorithm used to identify clusters of arbitrary shapes in spatial data.
 - [K Means Clustering](https://github.com/kjarjoura/INDE577demo/tree/main/Unsupervised%20Learning/K%20Means%20Clustering): A partitioning clustering algorithm that partitions data into K distinct clusters based on centroids.
 - [Principle Component Analysis](https://github.com/kjarjoura/INDE577demo/tree/main/Unsupervised%20Learning/Principle%20Component%20Analysis): A dimensionality reduction technique that projects data onto a lower-dimensional subspace while preserving variance.
 
