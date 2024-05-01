@@ -18,7 +18,7 @@ Points that are not core points but fall within the neighborhood distance of a c
 
 ### Algorithm
 
-1. **Initialization**: Specify the neighborhood radius (eps) and the minimum number of points required to form a dense region (min_samples).
+1. **Initialization**: Specify the neighborhood radius (eps) and the minimum number of points required to form a dense region ($min_{samples}$).
 2. **Core Point Identification**: Identify core points, which have at least $min_{samples}$ within distance eps.
 3. **Cluster Formation**: Form clusters by assigning core points and their neighbors to the same cluster.
 4. **Noise Detection**: Mark points that do not belong to any cluster as noise or outliers.
