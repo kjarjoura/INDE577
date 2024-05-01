@@ -2,6 +2,8 @@
 
 K-Means is a partitioning clustering algorithm widely used for grouping data points into K distinct clusters. It is an iterative algorithm that aims to minimize the variance within clusters by iteratively assigning data points to the nearest cluster centroid and updating the centroids to the mean of the data points within each cluster.
 
+![image](https://github.com/kjarjoura/INDE577/blob/main/Images/kmc.png)
+
 ## Theory and Mathematics Behind K-Means Clustering
 
 ### Basic Idea
