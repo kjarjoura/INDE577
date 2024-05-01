@@ -27,7 +27,7 @@ The perceptron uses a step function as its activation function, defined as:
 
 $$f(x) = 
 \begin{cases} 
-1 & \text{if } x @ y > 0 \\
+1 & \text{if } x \cdot y > 0 \\
 -1 & \text{otherwise}
 \end{cases}$$
 
