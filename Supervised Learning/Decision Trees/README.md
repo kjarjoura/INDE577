@@ -48,5 +48,13 @@ Decision Trees are prone to overfitting, especially when the tree grows deep. Pr
   - Assess the impurity of the dataset and each attribute to measure the probability of misclassifying a randomly chosen sample.
   - Choose the attribute that minimizes the Gini impurity, computed as the sum of squared probabilities of each class in a node.
 
-## Implementation in scikit-learn
+## Applications
+
+- **Finance**: Decision Trees are widely used in finance for credit scoring, fraud detection, and stock price prediction. Their interpretability allows financial institutions to explain credit decisions to customers, and their ability to handle both numerical and categorical data makes them suitable for various financial datasets.
+- **Healthcare**: In healthcare, Decision Trees are employed for disease diagnosis, treatment planning, and patient risk assessment. They help identify high-risk patients for early intervention and enable healthcare providers to make informed decisions based on patient characteristics and medical history.
+- **Marketing**: Decision Trees play a crucial role in marketing for customer segmentation, target marketing campaigns, and churn prediction. Their ability to uncover patterns in large datasets helps marketers understand customer behavior and preferences, leading to more effective marketing strategies and improved customer retention.
+- **Manufacturing**: In manufacturing industries, Decision Trees assist in quality control, predictive maintenance, and process optimization. They help identify factors contributing to defects and inefficiencies in manufacturing processes, leading to improved product quality and operational efficiency.
+
+
+## Implementation in Scikit-Learn
 In this repository, we utilize the `DecisionTreeClassifier` class from the scikit-learn library, which provides an efficient implementation of Decision Trees for classification tasks. This class allows us to easily construct, train, and evaluate Decision Tree models using various splitting criteria, such as Gini impurity or entropy. Additionally, scikit-learn provides functionalities for tree pruning and fine-tuning hyperparameters to optimize model performance.
