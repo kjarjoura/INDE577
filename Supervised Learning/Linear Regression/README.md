@@ -2,6 +2,8 @@
 
 Linear regression is one of the simplest and most commonly used statistical techniques for modeling the relationship between a dependent variable (target) and one or more independent variables (predictors). It assumes a linear relationship between the independent variables and the dependent variable, which can be represented by a straight line.
 
+![image](https://github.com/kjarjoura/INDE577/blob/main/Images/lr.png)
+
 ## Theory and Mathematics Behind Linear Regression
 
 ### Basic Idea
