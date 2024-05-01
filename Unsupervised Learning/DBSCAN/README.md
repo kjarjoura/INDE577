@@ -2,6 +2,8 @@
 
 DBSCAN is a density-based clustering algorithm that groups together closely packed points based on density. It is particularly effective in identifying clusters of arbitrary shapes and handling noise in the data.
 
+![image](https://github.com/kjarjoura/INDE577/blob/main/Images/bdscan.png)
+
 ## Theory and Mathematics Behind DBSCAN
 
 ### Basic Idea
@@ -32,6 +34,8 @@ A point $p$ is said to be density-reachable from another point $q$ if there exis
 #### Density Connectivity
 
 Two points $p$ and $q$ are density-connected if there exists a core point $o$ such that both $p$ and $q$ are density-reachable from $o$.
+
+![image](https://github.com/kjarjoura/INDE577/blob/main/Images/dbscanalg.png)
 
 ### Model Parameters
 
