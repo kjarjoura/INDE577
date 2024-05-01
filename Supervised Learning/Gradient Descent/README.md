@@ -37,6 +37,13 @@ Initialize $\theta$ randomly or to zeros
       - for each mini-batch:
         - Compute the gradient $\nabla J(\theta; x^{(i)}, y^{(i)})$
      - Update parameters: $\theta = \theta - \alpha \nabla J(\theta; x^{(i)}, y^{(i)})$
+   
+## Applications
+
+- **Model Training in Machine Learning**: Gradient Descent is widely used for training various machine learning models, including linear regression, logistic regression, support vector machines (SVMs), and neural networks. It enables the optimization of model parameters by minimizing a specified loss function, such as mean squared error (MSE) for regression tasks or cross-entropy loss for classification tasks.
+- **Optimization in Deep Learning**: Stochastic Gradient Descent (SGD) and its variants are the optimization algorithms of choice in training deep neural networks (DNNs). These algorithms can handle large-scale datasets and high-dimensional parameter spaces typical of deep learning models. SGD variants, such as mini-batch SGD, momentum SGD, and Adam, are used to accelerate convergence, improve generalization performance, and prevent overfitting in deep learning.
+- **Online Learning and Real-Time Systems**: Stochastic Gradient Descent is suitable for online learning scenarios where the data arrives sequentially or in mini-batches. It allows models to adapt continuously to changing data distributions and perform real-time updates without retraining on the entire dataset. Online learning using SGD is commonly employed in recommender systems, natural language processing (NLP), and personalized advertising.
+- **Non-convex Optimization Problems**: Gradient Descent can be applied to non-convex optimization problems, where the objective function may have multiple local minima. Although Gradient Descent does not guarantee convergence to the global minimum, it can find satisfactory solutions for many practical problems. Techniques such as random restarts and simulated annealing can enhance Gradient Descent's effectiveness in exploring the solution space and escaping local minima.
 
 ## Implementation
 
