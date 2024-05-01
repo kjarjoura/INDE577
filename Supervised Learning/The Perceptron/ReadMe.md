@@ -6,21 +6,31 @@ The perceptron is a fundamental building block of neural networks, representing 
 
 ### Basic Idea
 
-The Perceptron algorithm learns a linear decision boundary to classify input data into two categories. It takes a set of input features and assigns weights to each feature, along with an additional weight for the bias term. The weighted sum of the input features is then passed through an activation function (step function), which produces the final output prediction.
+The Perceptron algorithm is based on the concept of a linear threshold unit (LTU), which takes input features, applies weights to them, sums them up, and then passes the result through an activation function to produce a binary output. The algorithm iteratively adjusts the weights to minimize classification errors until convergence.
 
 ### Algorithm
 
-The perceptron algorithm involves the following steps:
-
-1. **Initialization**: Initialize the weights and bias term randomly or to zeros.
-
-2. **Forward Propagation**: Compute the weighted sum of the input features and apply the activation function to produce the output prediction.
-
-3. **Update Weights**: If the prediction is incorrect, update the weights using the gradient descent update rule to minimize the loss.
-
-4. **Repeat**: Repeat steps 2 and 3 until convergence or a maximum number of iterations is reached.
+1. **Initialization**: Initialize the weights and bias (if applicable) randomly or to zero.
+2. **Training**:
+   - Iterate over the training dataset.
+   - For each instance, compute the predicted class using the current weights.
+   - Update the weights based on the prediction error and learning rate.
+   - Continue until convergence or for a maximum number of iterations.
+3. **Prediction**: Given a new instance, compute the weighted sum of features and apply the activation function to predict the class.
 
 ### Mathematical Formulation
+
+#### Weight Function:
+The Perceptron algorithm updates the weights ($w$) according to the formula:
+
+$$w_{i+1} = w_i + \eta \cdot (y - \hat{y}) \cdot x$$
+
+where:
+- $w_{i+1}$ is the updated weight.
+- $\eta$ is the learning rate.
+- $y$ is the true label.
+- $\hat{y}$ is the predicted label.
+- $x$ is the feature vector.
 
 #### Activation Function:
 The perceptron uses a step function as its activation function, defined as:
@@ -49,6 +59,18 @@ where $N$ is the number of data points, $x_i$ is the feature vector, $y_i$ is th
 - 
 #### Parameter Tuning:
 Parameter tuning involves selecting optimal values for the learning rate, maximum iterations, and other hyperparameters to improve model performance and convergence speed. Techniques such as grid search or random search can be used to search the hyperparameter space and identify the best combination of parameters.
+
+## Advantages and Limitations
+
+### Advantages:
+- Simplicity: The Perceptron algorithm is straightforward to implement and understand.
+- Speed: It can converge quickly, especially for linearly separable data.
+- Memory Efficiency: Requires minimal memory as it processes data instances sequentially.
+
+### Limitations:
+- Linearity Assumption: The model assumes linear separability, limiting its applicability to linearly separable datasets.
+- Convergence: It may not converge if the data is not linearly separable, leading to infinite loops.
+- Sensitivity to Scaling: Performance may be affected by feature scaling, especially when using a learning rate.
 
 ## Implementation
 
