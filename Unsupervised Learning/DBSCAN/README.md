@@ -2,6 +2,8 @@
 
 DBSCAN is a density-based clustering algorithm that groups together closely packed points based on density. It is particularly effective in identifying clusters of arbitrary shapes and handling noise in the data.
 
+![image](https://github.com/kjarjoura/INDE577/blob/main/Images/bdscan.png)
+
 ## Theory and Mathematics Behind DBSCAN
 
 ### Basic Idea
@@ -33,6 +35,8 @@ A point $p$ is said to be density-reachable from another point $q$ if there exis
 
 Two points $p$ and $q$ are density-connected if there exists a core point $o$ such that both $p$ and $q$ are density-reachable from $o$.
 
+![image](https://github.com/kjarjoura/INDE577/blob/main/Images/dbscanalg.png)
+
 ### Model Parameters
 
 - **eps**: The maximum distance between two samples for one to be considered as in the neighborhood of the other.
@@ -49,6 +53,6 @@ Two points $p$ and $q$ are density-connected if there exists a core point $o$ su
   - Memory and computational complexity: The algorithm's complexity grows with the size of the dataset, impacting scalability.
   - Difficulty in identifying global clusters: DBSCAN may struggle to identify clusters with varying densities.
 
-## Implementation with scikit-learn
+## Implementation with Scikit-Learn
 
 In this implementation, we use the `DBSCAN` class from scikit-learn, a popular machine learning library in Python. The code fits the DBSCAN model to the data, assigns cluster labels, and estimates the number of clusters and noise points in the dataset.
