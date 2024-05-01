@@ -2,6 +2,8 @@
 
 Principal Component Analysis (PCA) is a powerful dimensionality reduction technique widely used in data preprocessing and exploratory data analysis. It aims to simplify the complexity of high-dimensional data while retaining its essential structure and patterns. By transforming the original features into a new set of orthogonal variables called principal components, PCA facilitates visualization, interpretation, and subsequent analysis of data.
 
+![image](https://github.com/kjarjoura/INDE577/blob/main/Images/pca.png)
+
 ### Theory and Mathematics Behind PCA
 
 #### Basic Idea
