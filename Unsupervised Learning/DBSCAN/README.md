@@ -53,6 +53,6 @@ Two points $p$ and $q$ are density-connected if there exists a core point $o$ su
   - Memory and computational complexity: The algorithm's complexity grows with the size of the dataset, impacting scalability.
   - Difficulty in identifying global clusters: DBSCAN may struggle to identify clusters with varying densities.
 
-## Implementation with scikit-learn
+## Implementation with Scikit-Learn
 
 In this implementation, we use the `DBSCAN` class from scikit-learn, a popular machine learning library in Python. The code fits the DBSCAN model to the data, assigns cluster labels, and estimates the number of clusters and noise points in the dataset.
