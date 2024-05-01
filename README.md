@@ -61,7 +61,7 @@ Topics List:
   - [Neural Networks](https://github.com/kjarjoura/INDE577demo/tree/main/Supervised%20Learning/Neural%20Networks)
   - [The Perceptron](https://github.com/kjarjoura/INDE577demo/tree/main/Supervised%20Learning/The%20Perceptron)
 - [Unsupervised Learning](https://github.com/kjarjoura/INDE577demo/tree/main/Unsupervised%20Learning)
-  - [DBSCAN](https://github.com/kjarjoura/INDE577demo/tree/main/Unsupervised%20Learning/Density-Based%20Clustering%20Non-Parametric%20Algorithm)
+  - [DBSCAN](https://github.com/kjarjoura/INDE577/tree/main/Unsupervised%20Learning/DBSCAN)
   - [K Means Clustering](https://github.com/kjarjoura/INDE577demo/tree/main/Unsupervised%20Learning/K%20Means%20Clustering)
   - [Principle Component Analysis](https://github.com/kjarjoura/INDE577demo/tree/main/Unsupervised%20Learning/Principle%20Component%20Analysis)
 
