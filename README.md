@@ -13,7 +13,7 @@ Machine learning is a branch of artificial intelligence that focuses on creating
 - **Classification and clustering**: Machine learning techniques categorize data into groups or classes based on similarities or differences, aiding in organization and understanding of complex datasets.
 Natural language processing: Machine learning algorithms enable computers to understand, interpret, and generate human language, powering applications like chatbots, language translation, and sentiment analysis.
 
-![image](ml_image.png)
+![image](Images/ml_image.png)
 
 ## Course Description
 Data Science & Machine Learning during the Spring 2024 semester at Rice University. Topics include the following:
@@ -48,7 +48,7 @@ Data Science tools used in this course:
   - [Tensorflow](https://www.tensorflow.org/api_docs/python/tf/all_symbols)
 
 A brief visualization of supervised versus unsupervised learning: 
-![image](s_vs_u.png)
+![image](Images/s_vs_u.png)
 
 Topics List:
 - [Supervised Learning](https://github.com/kjarjoura/INDE577demo/tree/main/Supervised%20Learning)
@@ -69,18 +69,18 @@ Topics List:
 ## Datasets
 This project uses two primary datasets related to wine.
 
-![image](wine.jpeg)
+![image](Images/wine.jpeg)
 
 The first [dataset](https://archive.ics.uci.edu/dataset/186/wine+quality) is related to red and white vinho verde wine samples, from the north of Portugal. The goal is to model wine quality and color based on physicochemical tests. Chemical data includes: fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free sulfur dioxide, total sulfur dioxide, density, pH, sulphates, alcohol, quality. Visualization of means of chemical components for quality and color are below:
 
-![image](quality.png)
+![image](Images/quality.png)
 
-![image](color.png)
+![image](Images/color.png)
 
 The second [dataset](https://archive.ics.uci.edu/dataset/109/wine) presents results of a chemical analysis of wines grown in the same region in Italy but derived from three different cultivars. The analysis determined the quantities of 13 constituents found in each of the three types of wines including alcohol, malic acid, ash, alcalinity of ash, magnesium, total phenols, flavanoids,
 nonflavanoid phenols, proanthocyanins, color intensity, hue, OD280/OD315 of diluted wines, and proline. The goal is to model wine class (designated by one of three cultivars) based on these quantities. A visualization of means of components for class is below:
 
-![image](class.png)
+![image](Images/class.png)
 
 
 
