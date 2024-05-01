@@ -2,7 +2,7 @@
 
 K Nearest Neighbors (k-NN) is a simple yet powerful classification algorithm used for both regression and classification tasks. It classifies a new data point based on the majority class of its k nearest neighbors in the feature space.
 
-![image](https://github.com/kjarjoura/INDE577/blob/main/Images/knn.png)
+![image](https://github.com/kjarjoura/INDE577/blob/main/Images/knn-1.png)
 
 ## Theory and Mathematics Behind k-NN
 

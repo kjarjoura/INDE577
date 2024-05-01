@@ -2,6 +2,8 @@
 
 Logistic regression is a popular statistical method used for binary classification tasks. It models the probability that a given input belongs to a particular class, making it suitable for scenarios where the dependent variable is categorical and has two outcomes.
 
+![image](https://github.com/kjarjoura/INDE577/blob/main/Images/logr.png)
+
 ## Theory and Mathematics Behind Logistic Regression
 
 ### Basic Idea

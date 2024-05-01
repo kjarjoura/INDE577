@@ -2,6 +2,9 @@
 
 The perceptron is a fundamental building block of neural networks, representing the simplest form of a single-layer neural network. It is used for binary classification tasks and learns a linear decision boundary to separate data points of different classes.
 
+![image](https://github.com/kjarjoura/INDE577/blob/main/Images/per.png)
+
+
 ## Theory and Mathematics Behind The Perceptron
 
 ### Basic Idea
