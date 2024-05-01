@@ -17,7 +17,9 @@ K-Means clustering aims to minimize the within-cluster sum of squared distances 
 
 ### Parameters
 - Number of Clusters (K): Specifies the desired number of clusters to partition the dataset into. This parameter needs to be predefined based on domain knowledge or exploration of the data.
+
 - Maximum Iterations: Determines the maximum number of iterations the algorithm will perform before considering convergence. Setting a maximum iteration limit helps prevent the algorithm from running indefinitely, especially when convergence criteria are not met.
+
 - Convergence Threshold (Epsilon): Represents the criterion for determining when the algorithm has converged. Convergence is typically achieved when the change in centroids between consecutive iterations falls below this threshold.
 
 ### Mathematical Formulation
