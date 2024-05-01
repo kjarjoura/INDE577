@@ -2,6 +2,9 @@
 
 Neural networks are a class of machine learning models inspired by the structure and function of the human brain. They consist of interconnected nodes, called neurons, organized into layers. Each neuron receives input, processes it through an activation function, and passes it to the next layer. Neural networks are capable of learning complex patterns and relationships in data, making them suitable for various tasks such as classification, regression, and clustering.
 
+![image](https://github.com/kjarjoura/INDE577/blob/main/Images/nn.png)
+
+
 ## Theory and Mathematics Behind Neural Networks
 
 ### Basic Idea
