@@ -50,5 +50,13 @@ $$\text{argmin}_{j} \| \mathbf{x} - \mathbf{\mu}_j \|$$
 - Sensitive to the initial placement of centroids.
 - Assumes clusters are isotropic and equally sized.
 
+## Applications
+
+- **Exploratory Data Analysis**: K-means clustering is a valuable tool for exploring the underlying structure of datasets and identifying natural groupings or clusters within the data. It helps in summarizing large datasets and uncovering hidden patterns or relationships that may not be apparent initially.
+- **Pattern Recognition**: K-means clustering is used in pattern recognition tasks to categorize data points into distinct clusters based on their similarity or proximity in the feature space. It is employed in image processing, signal processing, and text mining applications to group similar patterns, objects, or documents together.
+- **Customer Segmentation**: K-means clustering is extensively utilized in marketing and customer analytics to segment customers into meaningful groups based on their purchasing behavior, preferences, and demographics. It enables businesses to tailor their marketing strategies, product offerings, and customer experiences to different customer segments.
+- **Market Segmentation**: K-means clustering is applied in market research and analysis to segment markets into homogeneous groups of consumers or businesses with similar characteristics or needs. It helps companies identify target markets, develop targeted marketing campaigns, and optimize product pricing and distribution strategies.
+- **Anomaly Detection**: K-means clustering can be used for anomaly detection by identifying data points that deviate significantly from the clusters' centroids. It helps in detecting unusual patterns, outliers, or fraudulent activities in datasets, making it valuable for applications such as fraud detection, network security, and quality control.
+
 ## Implementation
 This repostiory implements a `KMeansClustering` class that offers a flexible interface for K-Means Clustering, allowing users to set parameters such as the number of clusters, maximum iterations, and convergence threshold during initialization. It provides essential methods like initialization, fitting the model to data, predicting cluster labels for new data points, and calculating the mean squared error for the final clusters.
