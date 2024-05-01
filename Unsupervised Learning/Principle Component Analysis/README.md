@@ -50,6 +50,15 @@ $$PC_i = X \cdot v_i$$
 - **Optimal Number of Components**: Determining the optimal number of principal components to retain can be subjective and requires careful consideration.
 - **Non-Robust to Outliers**: PCA is sensitive to outliers, which can significantly influence the principal components and the resulting data transformation.
 
+## Applications
+
+- **Feature Extraction**: PCA is employed for feature extraction, where it identifies a set of orthogonal (uncorrelated) linear combinations of the original features, known as principal components. These principal components capture the maximum variance in the data and can be used as new features for subsequent analysis or modeling tasks.
+- **Data Visualization**: PCA is a powerful tool for visualizing high-dimensional datasets in a lower-dimensional space, typically two or three dimensions. It enables the visualization of complex relationships and structures in the data, making it easier to interpret and analyze.
+- **Noise Reduction**: PCA can help in reducing the effects of noise or irrelevant features in the data by focusing on the principal components that capture the most significant variations. It helps in improving the signal-to-noise ratio and enhancing the performance of downstream machine learning algorithms.
+- **Clustering and Classification**: PCA is often used as a preprocessing step before clustering or classification tasks to reduce the computational complexity and improve the performance of the algorithms. By reducing the dimensionality of the feature space, PCA can lead to faster convergence and better separation of clusters or classes.
+- **Anomaly Detection**: PCA can be applied in anomaly detection tasks to identify unusual patterns or outliers in high-dimensional datasets. By transforming the data into a lower-dimensional space, PCA makes it easier to detect anomalies that deviate significantly from the normal behavior of the dataset.
+- **Model Interpretation**: PCA can aid in model interpretation by identifying the most important features or variables that contribute to the variance in the data. It helps in understanding the underlying structure of the dataset and identifying the key factors driving the observed patterns.
+
 ### Implementation
 
 This repository implements a `retain_variance` function that performs PCA to retain a specified percentage of variance in the data. It utilizes the scikit-learn library's `PCA` module for computing principal components and transforming the data. The function returns the number of principal components needed to retain the specified variance.
