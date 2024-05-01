@@ -4,7 +4,6 @@ The perceptron is a fundamental building block of neural networks, representing 
 
 ![image](https://github.com/kjarjoura/INDE577/blob/main/Images/per.png)
 
-
 ## Theory and Mathematics Behind The Perceptron
 
 ### Basic Idea
@@ -74,6 +73,14 @@ Parameter tuning involves selecting optimal values for the learning rate, maximu
 - Linearity Assumption: The model assumes linear separability, limiting its applicability to linearly separable datasets.
 - Convergence: It may not converge if the data is not linearly separable, leading to infinite loops.
 - Sensitivity to Scaling: Performance may be affected by feature scaling, especially when using a learning rate.
+
+## Applications
+
+- **Binary Classification**: The perceptron is primarily used for binary classification tasks where the goal is to classify input data into one of two categories. It learns a linear decision boundary to separate data points of different classes. Applications include email spam detection, sentiment analysis, and medical diagnosis.
+- **Pattern Recognition**: Perceptrons can be used for pattern recognition tasks where the goal is to identify patterns or features in input data. They can recognize simple patterns in images, signals, and sequences, making them suitable for applications such as character recognition, speech recognition, and fingerprint identification.
+- **Cybersecurity**: Perceptrons are used in cybersecurity applications to detect and prevent cyber threats such as malware, intrusions, and network attacks. They can analyze network traffic, log data, and system behavior to identify suspicious activities and anomalies, enabling early detection and response to security breaches.
+- **Financial Forecasting**: Perceptrons can be applied to financial forecasting tasks such as stock price prediction, market trend analysis, and credit risk assessment. By analyzing historical market data and economic indicators, perceptrons can make predictions about future financial trends and risks, helping investors and financial institutions make informed decisions.
+- **Control Systems**: Perceptrons are used in control systems and robotics to make decisions and control actions based on sensor inputs and environmental feedback. They can navigate autonomous vehicles, control industrial processes, and optimize energy systems by learning from real-time data and adjusting system parameters accordingly.
 
 ## Implementation
 
