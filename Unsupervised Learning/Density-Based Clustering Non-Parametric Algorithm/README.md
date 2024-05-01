@@ -38,6 +38,17 @@ Two points $p$ and $q$ are density-connected if there exists a core point $o$ su
 - **eps**: The maximum distance between two samples for one to be considered as in the neighborhood of the other.
 - **min_samples**: The number of samples in a neighborhood for a point to be considered as a core point.
 
+## Advantages and Limitations
+**Advantages**:
+  - Capable of identifying clusters of arbitrary shapes and sizes.
+  - Robust to noise and outliers.
+  - Does not require the number of clusters to be specified in advance.
+  
+**Limitations**:
+  - Sensitivity to parameters: Performance may be sensitive to the choice of eps and min_samples.
+  - Memory and computational complexity: The algorithm's complexity grows with the size of the dataset, impacting scalability.
+  - Difficulty in identifying global clusters: DBSCAN may struggle to identify clusters with varying densities.
+
 ## Implementation with scikit-learn
 
-In this implementation, we use the 'DBSCAN' class from scikit-learn, a popular machine learning library in Python. The code fits the DBSCAN model to the data, assigns cluster labels, and estimates the number of clusters and noise points in the dataset.
+In this implementation, we use the `DBSCAN` class from scikit-learn, a popular machine learning library in Python. The code fits the DBSCAN model to the data, assigns cluster labels, and estimates the number of clusters and noise points in the dataset.
