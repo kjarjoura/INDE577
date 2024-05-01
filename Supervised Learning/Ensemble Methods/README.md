@@ -57,7 +57,15 @@ Let $X = \{x_1, x_2, ..., x_n\}$ denote the training dataset, and $Y = \{y_1, y_
 The prediction of the Bagging ensemble $\hat{Y}$ for a new instance $x'$ is obtained by averaging the predictions of all individual base estimators:
 $$\hat{Y}(x') = \frac{1}{B} \sum_{i=1}^{B} E_i(x')$$
 
-## Implementation in scikit-learn
+## Applications
+
+- **Classification and Regression Tasks**: Ensemble methods, such as Random Forests and Bagging, are widely used in both classification and regression tasks across various domains, including finance, healthcare, marketing, and manufacturing. They offer improved predictive performance compared to individual base models by leveraging the collective wisdom of multiple models.
+- **High-Dimensional Data**: Ensemble methods are effective for handling high-dimensional data with complex relationships between features and target variables. They can capture nonlinear patterns and interactions among features, making them suitable for datasets with a large number of features.
+- **Imbalanced Datasets**: Ensemble methods can handle imbalanced datasets effectively by mitigating the bias towards the majority class. They improve the generalization performance by aggregating predictions from multiple models trained on balanced subsets of data, thereby reducing the impact of class imbalance on model performance.
+- **Anomaly Detection**: Ensemble methods can be applied to anomaly detection tasks, where the goal is to identify rare events or outliers in data. By combining predictions from multiple models, ensemble methods can distinguish between normal and anomalous instances more accurately, leading to robust anomaly detection systems.
+
+
+## Implementation in Scikit-Learn
 
 In this repository, we utilize the `RandomForestClassifier` and `BaggingClassifier` classes from the scikit-learn library to implement Random Forests and Bagging, respectively. These classes provide efficient implementations of ensemble methods for classification tasks. By leveraging scikit-learn's functionalities, we can easily construct, train, and evaluate ensemble models using various hyperparameters and splitting criteria. Additionally, scikit-learn offers tools for fine-tuning hyperparameters and optimizing model performance, making it a valuable resource for ensemble learning tasks.
 
