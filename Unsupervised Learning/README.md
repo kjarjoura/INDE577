@@ -2,6 +2,8 @@
 
 Unsupervised learning is a branch of machine learning where the algorithm learns from unlabeled data to discover hidden patterns, structures, or relationships within the data. Unlike supervised learning, unsupervised learning does not require labeled output, making it particularly useful for exploratory data analysis and understanding the underlying structure of the data. This section provides an overview of unsupervised learning, its applications, advantages, and disadvantages.
 
+![image](https://github.com/kjarjoura/INDE577/blob/main/Images/unsuper.png)
+
 ## Overview
 
 In unsupervised learning, the algorithm aims to identify inherent structures or groupings within the data without explicit guidance or supervision. Common tasks in unsupervised learning include clustering, dimensionality reduction, and anomaly detection. Unsupervised learning can help uncover patterns in data, segment similar data points into clusters, and reduce the dimensionality of the feature space while preserving essential information.

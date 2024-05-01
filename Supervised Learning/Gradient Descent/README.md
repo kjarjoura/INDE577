@@ -2,6 +2,8 @@
 
 Gradient Descent is a fundamental optimization algorithm used to minimize a loss function by iteratively moving in the direction of the steepest descent. It is widely employed in machine learning for training various models, including linear regression, logistic regression, and neural networks.
 
+![image](https://github.com/kjarjoura/INDE577/blob/main/Images/gd.png)
+
 ## Theory and Mathematics Behind Gradient Descent
 
 Gradient Descent operates by updating the parameters (weights and bias) of a model iteratively to minimize a given loss function. The update rule for the parameters $\theta$ is given by:
@@ -24,6 +26,8 @@ Initialize $\theta$ randomly or to zeros
 ### Stochastic Gradient Descent (SGD)
 
 Stochastic Gradient Descent is a variant of Gradient Descent that updates the parameters using the gradient of the loss function computed on small random subsets of the training data, known as mini-batches. This approach is computationally efficient and often converges faster than standard Gradient Descent.
+
+![image](https://github.com/kjarjoura/INDE577/blob/main/Images/sgd.png)
 
 **Pseudocode for Stochastic Gradient Descent (SGD):**
 

@@ -2,6 +2,8 @@
 
 Decision Trees are a popular class of supervised learning algorithms used for both classification and regression tasks. They are particularly attractive due to their simplicity, interpretability, and ability to handle both numerical and categorical data.
 
+![image](https://github.com/kjarjoura/INDE577/blob/main/Images/dt.png)
+
 ## Theory and Mathematics Behind Decision Trees
 
 ### Decision Tree Structure

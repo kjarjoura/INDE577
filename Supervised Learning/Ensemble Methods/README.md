@@ -2,6 +2,9 @@
 
 Ensemble methods in machine learning combine multiple individual models to produce a stronger predictive model. These methods leverage the wisdom of the crowd by aggregating predictions from diverse models to improve overall performance. Among the most popular ensemble methods are Random Forests and Bagging. Let's explore the theory behind these methods and how they are implemented.
 
+
+![image](https://github.com/kjarjoura/INDE577/blob/main/Images/ensemble.png)
+
 ## Theory and Mathematics Behind Ensemble Methods
 
 ### Random Forests
