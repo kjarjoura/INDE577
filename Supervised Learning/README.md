@@ -2,7 +2,7 @@
 
 Supervised learning is a fundamental concept in machine learning where the algorithm learns from labeled data to make predictions or decisions. In supervised learning, the input data is accompanied by corresponding output labels, allowing the algorithm to learn the relationship between the input and output variables. This section provides an overview of supervised learning, its applications, advantages, and disadvantages.
 
-![image](https://github.com/kjarjoura/INDE577/Images/super.png)
+![image](https://github.com/kjarjoura/INDE577/blob/main/Images/super.png)
 
 ## Overview
 
