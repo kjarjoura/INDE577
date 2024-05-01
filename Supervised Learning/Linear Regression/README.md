@@ -60,6 +60,13 @@ where $x$ represents the input variable.
 - Sensitive to outliers and multicollinearity.
 - Requires the independence and normality of residuals assumptions to be met for accurate inference.
 
+## Applications
+
+- **Predictive Modeling in Finance**: Linear regression is widely used in finance for predictive modeling tasks such as stock price prediction, risk assessment, and portfolio optimization. By analyzing historical financial data and market trends, linear regression models can help investors make informed decisions regarding investment strategies, asset allocation, and risk management.
+- **Sales Forecasting in Retail**: Linear regression is employed in retail businesses for sales forecasting and demand planning. By analyzing historical sales data and external factors such as advertising expenditure, seasonality, and economic indicators, linear regression models can predict future sales volumes, optimize inventory levels, and improve supply chain management.
+- **Healthcare Analytics**: Linear regression is utilized in healthcare analytics for predicting patient outcomes, disease progression, and treatment effectiveness. By analyzing patient demographics, clinical variables, and medical history, linear regression models can assist healthcare providers in making personalized treatment decisions, identifying at-risk patients, and improving healthcare delivery.
+- **Marketing Campaign Optimization**: Linear regression is applied in marketing analytics for optimizing marketing campaigns and customer acquisition strategies. By analyzing customer behavior, demographics, and response to marketing stimuli, linear regression models can identify key drivers of sales and customer engagement, allocate marketing resources effectively, and maximize return on investment (ROI).
+
 ### Implementation
 
 This repository demonstrates the implementation of linear regression using Python. It includes functions to calculate the slope, intercept, make predictions, and evaluate model performance using metrics such as R-squared and correlation coefficient. The linear regression line is then plotted to visualize the relationship between the independent and dependent variables.
