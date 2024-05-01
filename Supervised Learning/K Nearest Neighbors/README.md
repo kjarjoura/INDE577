@@ -64,5 +64,12 @@ Since k-NN relies on the computation of distances between data points, it is cru
 - Performance may degrade in high-dimensional feature spaces.
 - Not suitable for imbalanced datasets or noisy data.
 
-## Implementation with Sci-Kit Learn
+## Applications
+
+- **Classification in Recommender Systems**: k-NN is commonly used in recommender systems to recommend items or products to users based on their similarity to other users with similar preferences. By considering the preferences of neighboring users, k-NN can provide personalized recommendations for items such as movies, music, or products.
+- **Anomaly Detection in Network Security**: k-NN can be employed for anomaly detection in network security applications by identifying unusual patterns or behaviors in network traffic. By comparing the network traffic patterns of incoming data packets with those of known normal traffic, k-NN can detect and flag anomalies such as network intrusions or malicious activities.
+- **Medical Diagnosis and Healthcare**: k-NN is used in medical diagnosis and healthcare applications to classify patients based on their symptoms, medical history, or genetic profiles. By comparing the patient's features with those of similar patients in the dataset, k-NN can assist in diagnosing diseases, predicting treatment outcomes, and recommending personalized treatment plans.
+- **Environmental Monitoring and Remote Sensing**: k-NN is applied in environmental monitoring and remote sensing to classify land cover types, detect changes in vegetation, or identify natural disasters such as forest fires or floods. By analyzing satellite imagery or sensor data, k-NN can classify different land cover classes and monitor environmental changes over time.
+
+## Implementation with Scikit-Learn
 The implementation in this repository uses the `KNeighborsClassifier` class from scikit-learn to classify data points based on their nearest neighbors. It visualizes the decision boundaries and provides insights into the performance of the classifier for different values of $k$.
